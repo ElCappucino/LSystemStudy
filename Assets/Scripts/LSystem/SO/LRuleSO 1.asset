@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 828f82fd15b2db347bcefb8458d5a5da, type: 3}
+  m_Name: LRuleSO 1
+  m_EditorClassIdentifier: Assembly-CSharp::LRuleSO
+  iterations: 2
+  stepSize: 3
+  cylinderThickness: 1
+  stateRotationAngle: 10
+  axiom: A
+  rulesList:
+  - key: 65
+    value: B-F+CFC+F-D&F^D-F+&&CFC+F+B<<
+  - key: 66
+    value: A&F^CFB^F^D^^-F-D^|F^B|FC^F^A>>
+  - key: 67
+    value: '|D^|F^B-F+C^F^A&&FA&F^C+F+B^F^D>>'
+  - key: 68
+    value: '|CFB-F+B|FA&F^A&&FB-F+B|FC>>'
